@@ -2,7 +2,7 @@
 To start the application first make sure WSL2 is enabled if you're on Windows. 
 Next make sure you have docker installed and configure it to use WSL2, in my case I use Ubuntu20.04.
 
-Once these things are done, you can run the command `./vendor/bin/sail up` in this directory. When this has finished you can run `sail artisan migrate` and `sail artisan db:seed`. 
+Once these things are done, you can run the command `./vendor/bin/sail up` in this directory. When this has finished you can run `./vendor/bin/sail artisan migrate` and `./vendor/bin/sail artisan db:seed`. 
 
 Now you should be able to make a POST request to localhost/cart with e.g. this JSON payload. I recommend using Postman for this.
 
